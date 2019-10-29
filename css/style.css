@@ -1,0 +1,225 @@
+html {
+	height: 98%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+	overflow-x: hidden; 
+}
+
+header {
+	height: 10%;
+	width: 100%;
+	background-color: #12b9df;
+	text-align: center;
+	vertical-align: center;
+}
+
+section header {
+	height: 8%;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+    position: absolute;
+    height: 40px;
+    margin-top: 120px;
+    padding-top: 30px;
+    width: 100%;
+    background-color: #eee;
+    bottom: 0px;
+}
+
+h1 {
+	padding-top: 10px; 
+	text-align: center;
+	font-size: 4vh;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3vh;
+}
+
+section {
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.img-content {
+	height: 100%;
+	margin: 0 auto;
+}
+
+.content-users {
+	width: 102%;
+	height: auto;
+	overflow: visible;
+	position: relative;
+	padding-bottom: 2%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.user {
+	height: auto;
+	width: 47.94%;
+	min-height: 80px;
+	margin-top: 2.06%;
+	margin-right: 2.06%;
+	float: left;
+	background-color: #ddd;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,1);
+}
+
+.reliable-user {
+	background-color: #A4DEDF;
+}
+
+
+.profile-photo {
+	height: 94%;
+	text-align: center;
+	float: left;
+}
+
+.profile-photo img {
+	max-width: 100%;
+	max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.user-data {
+	float: left;
+	display: block;
+	height: 88%;
+	margin-left: 3%;
+	margin-top: 2%;
+	overflow: auto;
+	line-height: 1.8;
+	font-size: 1.7vh;
+	font-weight: bold;
+}
+
+.content-menu {
+	width: 4.5%;
+	height: 80%;
+	margin-top: 2%;
+	float: left;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.content-menu .checkbox-user {
+	width: 110%;
+	height: 18%;
+	margin: 0px;
+	background-color: #eee;
+	display: none;
+}
+
+.menu-image {
+	margin-top: 2%;
+	width: 100%;
+
+}
+
+.menu-image:active {
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+.menu-dropdown {
+	display: none;
+	width: 800%;
+	height: 95%;
+	left: -700%;
+	z-index: 3;
+	position: relative;
+	clear: both;
+}
+
+.menu-dropdown div {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 27%;
+	background-color: #aaa;
+	z-index: 10;
+	text-align: center;
+	padding-top: 8%;
+	font-size: 1.8vh;
+}
+
+.menu-dropdown div:hover {
+	background-color: #888;
+	cursor: pointer;
+
+}
+
+.content-buttons {
+	width: 100%;
+	height: 70px;
+	display: none;
+}
+
+.div-button:active {
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+.div-button:hover {
+	background-color: #aaa;
+	cursor: pointer;
+}
+
+.div-button {
+	float: left;
+	margin-left: 2%;
+	margin-top: 0.5%;
+	background-color: #ddd;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+	vertical-align:middle;
+	height: 60%;
+	padding-top: 1.3%;
+	font-size: 1.12vw;
+	text-align: center;
+}
+
+#suspicious-users-buttons .div-button{
+	width: 23.5%;
+}
+
+#reliable-users-buttons .div-button {
+	width: 32%;
+}
+
+#select-all-suspicious {
+	margin-left: 0%;
+}
+
+#select-all-reliable {
+	margin-left: 0%;
+}
+
+#content-info {
+	height: 0px;
+	margin-top: 10px;
+}
+
+#info-no-suspicious {
+	clear: left;
+	width: 100%;
+	margin-top: 2%;
+	display: inline-block;
+	text-align: center;
+}
+
+#info-no-suspicious img {
+	height: 73%;
+}

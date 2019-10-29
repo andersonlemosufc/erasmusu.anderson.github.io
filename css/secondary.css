@@ -1,0 +1,76 @@
+body {
+	height: 98vh;
+	width: 100%;
+	overflow-x: hidden;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+
+header {
+	height: 10%;
+	width: 100%;
+	background-color: #12b9df;
+	text-align: center;
+	vertical-align: center;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+    height: 4vh;
+    top: 93vh;
+    padding-top: 3vh;
+    width: 100%;
+    background-color: #eee;
+}
+
+.img-content {
+	height: 100%;
+	margin: 0 auto;
+}
+
+#info {
+	width: 60%;
+	height: auto;
+	padding: 3%;
+	margin: 0 auto;
+	background-color: #A4DEDF;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,1);
+	text-align: justify;
+	margin-top: 4%;
+}
+
+#links {
+	width: 69.96%;
+	height: auto;
+	font-size: 2.5vh;
+	margin: 0 auto;
+	margin-top: 4vh;
+	margin-left: 17%;
+	font-weight: bold;
+	overflow: hidden;
+	margin-bottom: 10vh;
+}
+
+#links div {
+	width: 42.38%;
+	min-height: 6vh;
+	height: auto;
+	float: left;
+	margin-right: 1.83%;
+	padding: 2%;
+	text-align: center;
+	background-color: #ddd;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,0.3);
+	color: black;
+}
+
+#links div:hover {
+	background-color: #aaa;
+	cursor: pointer;
+}
+
+#links div:active {
+    box-shadow: 0 0 5px -1px rgba(0,0,0,1);
+}

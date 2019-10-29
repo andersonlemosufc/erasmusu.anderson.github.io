@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Erasmusu.com</title>
+		<meta name="keywords" content="sospechosos, erasmusu" />
+		<meta name="description" content="This is an example of a view of suspicious users. This view is being used as part of Erasmusu's selection process." />
+		<link rel="shortcut icon" href="img/icon.png" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		
+		<header id="main-header">
+			<img alt="logo" class="img-content" src="img/logo.png" />
+		</header>
+		
+		<section id="content-reliable" >
+
+			<header>
+				<h1>Usuarios de Confianza</h1>
+			</header>
+
+			<div id="reliable-users-buttons" class="content-buttons">
+					
+				<div id="select-all-reliable" onclick="changeAllCheckboxes(true, false);" class="div-button">Seleccionar Todos</div>
+				<div id="unselect-all-reliable" onclick="changeAllCheckboxes(false, false);" class="div-button">Deseleccionar Todos</div>
+				<div id="remove-reliable" onclick="changeTypes(false);" class="div-button">Marcar como Sospechosos</div>
+
+			</div>
+
+			<div id="reliable-users" class="content-users"></div>
+		</section>
+		
+
+		<section id="content-suspicious" >
+			<header>
+				<h1>Usuarios Sospechosos</h1>
+			</header>
+
+			<div id="suspicious-users-buttons" class="content-buttons">
+				
+				<div id="select-all-suspicious" onclick="changeAllCheckboxes(true, true);" class="div-button">Seleccionar Todos</div>
+				<div id="unselect-all-suspicious" onclick="changeAllCheckboxes(false, true);" class="div-button">Deseleccionar Todos</div>
+				<div id="remove-suspicious" onclick="removeSelected();" class="div-button">Eliminar Seleccionados</div>
+				<div id="entrust-suspicious" onclick="changeTypes(true);" class="div-button">Marcar como Seguros</div>
+
+
+			</div>
+
+			<div id="suspicious-users" class="content-users"></div>
+		</section>
+
+		<section id="content-info">
+			<div id="info-no-suspicious">
+				<h2>No hay usuarios sospechosos.</h2>
+				<img alt="no suspicious" src="img/happy.png" />
+			</div>
+		</section>
+	
+		<footer>
+			Desarrollado por Anderson Lemos.
+		</footer>
+
+	</body>
+	<script type="text/javascript" src="js/util/constants.js"></script>
+	<script type="text/javascript" src="js/util/util.js"></script>
+	<script type="text/javascript" src="js/services/userService.js"></script>
+	<script type="text/javascript" src="js/services/userViewService.js"></script>
+	<script type="text/javascript" src="js/services/viewService.js"></script>
+	<script type="text/javascript" src="js/controllers/menuController.js"></script>
+	<script type="text/javascript" src="js/controllers/appController.js"></script>
+</html>
